@@ -311,6 +311,7 @@ input:focus, textarea:focus, button:focus, select:focus {
   }
   .main-grid {
     padding: 22px 262px 18px 72px;
+    width: 89%;
   }
 
   .avator {
@@ -341,6 +342,13 @@ input:focus, textarea:focus, button:focus, select:focus {
   }
 }
 
+@media screen and (max-width: 730px){
+.main-grid {
+  padding: 22px 20px 10px 16px !important;
+  width: 96%!important;
+}
+}
+
 @media screen and (max-width: 575px) {
   .formHeader {
     font-size: 1rem;
@@ -357,7 +365,7 @@ input:focus, textarea:focus, button:focus, select:focus {
 
   .main-grid {
     padding: 22px 20px 10px 16px !important;
-    width: 298px;
+    //width: 298px!important;
   }
 
   .small-image {
@@ -412,7 +420,7 @@ input:focus, textarea:focus, button:focus, select:focus {
 @media screen and (max-width: 772px) {
   .main-grid {
     padding: 22px 20px 10px 16px;
-    width: 735px;
+    //width: 735px;
   }
 
   .invisible-add-agent {

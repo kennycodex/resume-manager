@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 1200px) {
   .invoice-body {
-    padding: 0 56px 60px 43px;
+    padding: 0 56px 60px 0;
   }
   .invioce-download {
     font-size: 12px;
@@ -117,7 +117,7 @@
 
 @media only screen and (max-width: 575px) {
   .invoice-body {
-    padding: 0 33px 26px 16px;
+    padding: 0 33px 26px 0;
   }
   .invioce-title {
     padding-top: 10px;
